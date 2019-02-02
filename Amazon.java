@@ -14,7 +14,7 @@ class Amazon
 	   static Scanner scn = new Scanner(System.in);
 		public static void main(String[] args) throws InputMismatchException
 		{
-			System.out.println("\n\n@@@@@@@@@@@@@@@@@@@@@@@---->|     WELCOME TO SHOPPING ADDA     |<----@@@@@@@@@@@@@@@@@@@@@@@\n\n");  
+			System.out.println("\n\n@@@@@@@@@@@@@@@@@@@@@@@---->|     WELCOME TO AMAZON     |<----@@@@@@@@@@@@@@@@@@@@@@@\n\n");  
 			DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss"); 
 			LocalDateTime now = LocalDateTime.now(); 
 			System.out.println("                                                                   "+dtf.format(now)); 
